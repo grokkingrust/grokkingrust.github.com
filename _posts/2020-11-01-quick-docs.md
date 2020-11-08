@@ -5,7 +5,7 @@ description: "."
 category:
 tags: [rust, docs, crate]
 ---
-Rust has a lot of nice features - one is that it comes with a '''cargo''' command that compiles all the documentation for your project's dependencies, and opens a browser on them.
+Rust has a lot of nice features - one is that it comes with a `cargo` command that compiles all the documentation for your project's dependencies, and opens a browser on them.
 
     cargo doc --open command
 
