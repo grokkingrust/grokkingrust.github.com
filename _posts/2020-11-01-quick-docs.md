@@ -9,4 +9,4 @@ Rust has a lot of nice features - one is that it comes with a `cargo` command th
 
     cargo doc --open command
 
-From: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
+From: [The Rust Language Book, Chapter 2: Guessing Game Tutorial](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html)
