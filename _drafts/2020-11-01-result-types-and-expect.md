@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Result types and expect"
+description: "."
+category:
+tags: [rust, errors, exceptions, error-handling, matching]
+---
+
 The Result types are enumerations, often referred to as enums. An enumeration is a type that can have a fixed set of values, and those values are called the enum’s variants. Chapter 6 will cover enums in more detail.
 
 For Result, the variants are Ok or Err. The Ok variant indicates the operation was successful, and inside Ok is the successfully generated value. The Err variant means the operation failed, and Err contains information about how or why the operation failed.
