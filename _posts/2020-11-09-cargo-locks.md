@@ -2,7 +2,6 @@
 layout: article
 title: "Built in: Dependency locking"
 description: "."
-category:
 tags: [rust, dependencies, crate]
 ---
 
