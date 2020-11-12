@@ -9,6 +9,8 @@ Title: Rust is an expression-based language, but...
 
 [My error when I make the block return the output from a statement....]
 
+"statements don’t evaluate to a value, which is expressed by (), an empty tuple"
+
 
 What about Go and Scala?
 
