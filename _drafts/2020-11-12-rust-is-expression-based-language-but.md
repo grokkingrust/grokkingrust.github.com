@@ -9,4 +9,6 @@ Title: Rust is an expression-based language, but...
 
 What about Go and Scala?
 
+"Expressions can be part of statements: in Listing 3-1, the 6 in the statement let y = 6; is an expression that evaluates to the value 6. Calling a function is an expression. Calling a macro is an expression. The block that we use to create new scopes, {}, is an expression"
+
 https://en.wikipedia.org/wiki/Expression-oriented_programming_language
