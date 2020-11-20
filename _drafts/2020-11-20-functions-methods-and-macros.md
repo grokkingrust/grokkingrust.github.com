@@ -3,7 +3,7 @@
 
 method syntax goes after an instance: we add a dot followed by the method name, parentheses, and any arguments - from https://doc.rust-lang.org/book/ch05-03-method-syntax.html
 
-Plus also &self
+Plus also &self instead of rectangle: &Rectangle
 
 #Macros ! (e.g. println!
 
