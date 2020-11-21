@@ -5,12 +5,10 @@ description: "."
 tags: [rust, errors, exceptions, error-handling, matching]
 ---
 
-Rust has what it calls "Result types" and they feel a bunch like Options in Java, although the Rust book refers to them as enums. A Result type has the variants "Ok" and "Err".  If your result was a success then the Ok containsyour result.  If something went wrong and the operation failed then the Err will give you some information as to why.
-
-"Rust’s enums are most similar to algebraic data types in functional languages, such as F#, OCaml, and Haskell" - from https://doc.rust-lang.org/book/ch06-00-enums.html
+Rust has what it calls "Result types" and although the Rust book refers to them as enums they are [most similar to algebraic data types](https://doc.rust-lang.org/book/ch06-00-enums.html) (which explains why they feel a bunch like Options in Java). A Result type has the variants "Ok" and "Err".  If your result was a success then the Ok contains your result.  If something went wrong and the operation failed then the Err will give you some information as to why.
 
 
-The purpose of these Result types is to encode error-handling information. Values of the Result type, like values of any type, have methods defined on them. An instance of io::Result has an expect method that you can call. If this instance of io::Result is an Err value, expect will cause the program to crash and display the message that you passed as an argument to expect. If the read_line method returns an Err, it would likely be the result of an error coming from the underlying operating system. If this instance of io::Result is an Ok value, expect will take the return value that Ok is holding and return just that value to you so you can use it. In this case, that value is the number of bytes in what the user entered into standard input.
+The purpose of Result types is to encode error-handling information. Values of the Result type, like values of any type, have methods defined on them. An instance of io::Result has an expect method that you can call. If this instance of io::Result is an Err value, expect will cause the program to crash and display the message that you passed as an argument to expect. If the read_line method returns an Err, it would likely be the result of an error coming from the underlying operating system. If this instance of io::Result is an Ok value, expect will take the return value that Ok is holding and return just that value to you so you can use it. In this case, that value is the number of bytes in what the user entered into standard input.
 
 
 The Option Enum and it's advantages over null values
