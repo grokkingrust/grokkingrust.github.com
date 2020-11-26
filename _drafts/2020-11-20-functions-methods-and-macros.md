@@ -10,9 +10,9 @@ See https://doc.rust-lang.org/book/ch05-03-method-syntax.html#associated-functio
 
 "Let you namespace functionality that is particular to your struct without having an instance available"
 
-E.g. String::from
+E.g. String::from and String::new.
 
-N.b. "the :: syntax is used for both associated functions and namespaces created by modules"
+N.b. "the :: syntax is used for both associated functions and namespaces created by modules".  They are also sometimes just referred to as "functions" (c.f. https://doc.rust-lang.org/book/ch08-02-strings.html#creating-a-new-string)
 
 # Macros ! (e.g. println!
 
