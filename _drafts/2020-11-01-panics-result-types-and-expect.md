@@ -22,3 +22,6 @@ AND WE CAN MATCH ON THEM TOO:
 Switching from an expect call to a match expression is how you generally move from crashing on an error to handling the error. Remember that parse returns a Result type and Result is an enum that has the variants Ok or Err. We’re using a match expression here, as we did with the Ordering result of the cmp method.
 
 From: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
+
+
+Also, unwrap and expect: https://doc.rust-lang.org/book/ch09-02-recoverable-errors-with-result.html#shortcuts-for-panic-on-error-unwrap-and-expect
