@@ -31,3 +31,5 @@ Also, unwrap and expect: https://doc.rust-lang.org/book/ch09-02-recoverable-erro
 This works in the same way - if something can fail with an Err, we return a Result (Option) type.
 
 https://doc.rust-lang.org/book/ch09-02-recoverable-errors-with-result.html#propagating-errors
+
+The Questionmark operator (?): https://doc.rust-lang.org/book/ch09-02-recoverable-errors-with-result.html#a-shortcut-for-propagating-errors-the--operator
