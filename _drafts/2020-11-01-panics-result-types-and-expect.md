@@ -1,9 +1,12 @@
 ---
 layout: article
-title: "Result types and expect"
+title: "Panic!, Result types and expect"
 description: "."
 tags: [rust, errors, exceptions, error-handling, matching]
 ---
+Rust doesn't do exceptions, but it does provide two ways to handle when things go wrong: !panic and Result / expect.
+
+"Most errors aren’t serious enough to require the program to stop entirely. Sometimes, when a function fails, it’s for a reason that you can easily interpret and respond to" from https://doc.rust-lang.org/book/ch09-02-recoverable-errors-with-result.html
 
 Rust has what it calls "Result types" and although the Rust book refers to them as enums they are [most similar to algebraic data types](https://doc.rust-lang.org/book/ch06-00-enums.html) (which explains why they feel a bunch like Options in Java). A Result type has the variants "Ok" and "Err".  If your result was a success then the Ok contains your result.  If something went wrong and the operation failed then the Err will give you some information as to why.
 
