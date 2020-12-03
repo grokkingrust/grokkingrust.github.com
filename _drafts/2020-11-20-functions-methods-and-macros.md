@@ -13,7 +13,7 @@ method syntax goes after an instance: we add a dot followed by the method name, 
 
 For example, the to_string method which is available on any type which implements the Display trait.
 
-Plus also note: &self instead of rectangle: &Rectangle. ("Methods can take ownership of self, borrow self immutably as we’ve done here, or borrow self mutably, just as they can any other parameter.")
+Plus also note: ```&self``` instead of rectangle: &Rectangle. ("Methods can take ownership of self, borrow self immutably as we’ve done here, or borrow self mutably, just as they can any other parameter.")
 
 ## Associated Functions
 See https://doc.rust-lang.org/book/ch05-03-method-syntax.html#associated-functions
