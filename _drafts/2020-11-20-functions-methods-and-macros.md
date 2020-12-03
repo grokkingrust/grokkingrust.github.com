@@ -2,16 +2,13 @@ Warnging: there won't be a great deal of use in this post - I've mainly written 
 
 # Functions 
 ## Define
-    ```
+    
     fn hello(name: &str) {
         println!("Hello, {}!", name);
     }
-    ```
 
 ## Use
-    ```
     hello("World);
-    ```
 
 Declared by the keyword ```fn```, functions are first class (i.e. you don't need to home them in a struct or anywhere else). You call them by referencing their name.
 
