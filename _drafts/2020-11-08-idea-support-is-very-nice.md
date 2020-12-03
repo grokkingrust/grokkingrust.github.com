@@ -1,3 +1,18 @@
-IntelliJ Idea support is very nice. (Three screenshots - run config, hints / type info, and mutable-variable flagging)
+---
+layout: article
+title: "Jetbrains IDE support is very nice"
+description: "."
+tags: [rust, ide, jetbrains]
+---
+It personally helps me _loads_ if I have good IDE support when I'm learning a new language. The Jetbrains Rust plugins (which I'm using in IntelliJ IDEA, though they work in all their other IDEs too) are really very nice. 
 
-https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html
+![Run Config](images/idea-rust-run-config.png "Run Config")
+
+![Hints / type info](images/idea-rust-support-1.png "Hints / type info")
+
+![Mutable-variable flagging](images/idea-rust-support-2.png "mutable-variable flagging")
+
+
+
+(Three screenshots - run config, hints / type info, and mutable-variable flagging)
+
