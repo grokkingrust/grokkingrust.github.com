@@ -2,10 +2,10 @@
 
 title: "Grokking Rust"
 description: "A blog about my attempts to learn Rust."
-logo: Rust_programming_language_black_logo.png
+logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
-url: https://grokkingrust.github.io/
+url:
 feed:
   path: atom.xml
 
@@ -25,10 +25,10 @@ plugins:
 
 
 # Site owner
-owner: Andrew Harmel Law
-  name: Andrew Harmel-Law
+owner:
+  name:
   email:
-  twitter: @al94781
+  twitter:
   google:
     ad-client:
     ad-slot:
