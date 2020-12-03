@@ -59,5 +59,10 @@ and
 
 Note: the ```::``` syntax is used for both associated functions and namespaces created by modules.  
 
-# Macros ! (e.g. println!)
+# Macros(!) 
 TBC. See https://doc.rust-lang.org/book/ch05-02-example-structs.html and https://doc.rust-lang.org/book/ch05-03-method-syntax.html in the meantime.
+
+## Use
+
+    println!("This is a test")
+
