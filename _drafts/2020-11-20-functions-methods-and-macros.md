@@ -43,7 +43,7 @@ As the Rust Book says:
 
 From [chapter 5 of the Rust Book](https://doc.rust-lang.org/book/ch05-03-method-syntax.html)
 
-## Associated Functions
+# Associated Functions
 Associated functions are functions, but look a _bit_ like methods in that they are associated with a Struct's namespace.  The idea is that you can namespace functionality that is particular to a specific struct, without having to have an instance available.  (They seem a lot like static methods to an old Java-head like me.)
 
 See [chapter 5, section 3](https://doc.rust-lang.org/book/ch05-03-method-syntax.html#associated-functions) of The Rust book for more details.
