@@ -6,11 +6,11 @@ tags: [rust, ide, jetbrains]
 ---
 It personally helps me _loads_ if I have good IDE support when I'm learning a new language. The Jetbrains Rust plugins (which I'm using in IntelliJ IDEA, though they work in all their other IDEs too) are really very nice. 
 
-![Run Config](images/idea-rust-run-config.png "Run Config")
+![Run Config](../images/idea-rust-run-config.png "Run Config")
 
-![Hints / type info](images/idea-rust-support-1.png "Hints / type info")
+![Hints / type info](../images/idea-rust-support-1.png "Hints / type info")
 
-![Mutable-variable flagging](images/idea-rust-support-2.png "mutable-variable flagging")
+![Mutable-variable flagging](../images/idea-rust-support-2.png "mutable-variable flagging")
 
 
 
