@@ -1,4 +1,4 @@
-Warnging: there won't be a great deal of use in this post - I've mainly written it to firmly embed in my head the various ways of reusably wrapping blocks of logic in Rust.
+Warning: there won't be a great deal of use in this post - I've mainly written it to firmly embed in my head the various ways of reusably wrapping blocks of logic in Rust.
 
 # Functions 
 Declared by the keyword ```fn```, functions are first class (i.e. you don't need to home them in a struct or anywhere else). You use them simply by referencing their name.
@@ -44,15 +44,20 @@ As the Rust Book says:
 From [chapter 5 of the Rust Book](https://doc.rust-lang.org/book/ch05-03-method-syntax.html)
 
 ## Associated Functions
-See https://doc.rust-lang.org/book/ch05-03-method-syntax.html#associated-functions
+Associated functions are functions, but look a _bit_ like methods in that they are associated with a Struct's namespace.  The idea is that you can namespace functionality that is particular to a specific struct, without having to have an instance available.  (They seem a lot like static methods to an old Java-head like me.)
 
-"Let you namespace functionality that is particular to your struct without having an instance available"
+See [chapter 5, section 3](https://doc.rust-lang.org/book/ch05-03-method-syntax.html#associated-functions) of The Rust book for more details.
 
-E.g. String::from and String::new.
+Note: they are also sometimes [just referred to as "functions"](https://doc.rust-lang.org/book/ch08-02-strings.html#creating-a-new-string).
 
-N.b. "the :: syntax is used for both associated functions and namespaces created by modules".  They are also sometimes just referred to as "functions" (c.f. https://doc.rust-lang.org/book/ch08-02-strings.html#creating-a-new-string)
+## Use
+    let string = String::from("make me a String!")
+    
+and
+
+    let string = String::new();
+
+Note: the ```::``` syntax is used for both associated functions and namespaces created by modules.  
 
 # Macros ! (e.g. println!)
-
-https://doc.rust-lang.org/book/ch05-02-example-structs.html
-and https://doc.rust-lang.org/book/ch05-03-method-syntax.html
+TBC. See https://doc.rust-lang.org/book/ch05-02-example-structs.html and https://doc.rust-lang.org/book/ch05-03-method-syntax.html in the meantime.
