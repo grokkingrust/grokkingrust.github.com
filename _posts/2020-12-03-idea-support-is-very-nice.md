@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Jetbrains IDE support is very nice"
+title: "Jetbrains Rust support is very nice"
 description: "."
 tags: [rust, ide, jetbrains]
 ---
