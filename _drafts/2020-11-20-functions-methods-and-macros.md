@@ -31,7 +31,7 @@ For example, the ```to_string``` method which is available on any type which imp
     }
 
 ## Use
-    rect.area()
+    rect.area();
 
 Read more in [chapter 5 of the Rust Book](https://doc.rust-lang.org/book/ch05-03-method-syntax.html)
 
@@ -51,7 +51,7 @@ See [chapter 5, section 3](https://doc.rust-lang.org/book/ch05-03-method-syntax.
 Note: they are also sometimes [just referred to as "functions"](https://doc.rust-lang.org/book/ch08-02-strings.html#creating-a-new-string).
 
 ## Use
-    let string = String::from("make me a String!")
+    let string = String::from("make me a String!");
     
 and
 
@@ -64,5 +64,5 @@ TBC. See https://doc.rust-lang.org/book/ch05-02-example-structs.html and https:/
 
 ## Use
 
-    println!("This is a test")
+    println!("This is a test");
 
