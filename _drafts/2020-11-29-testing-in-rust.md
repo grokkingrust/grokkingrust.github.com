@@ -22,3 +22,4 @@ from: https://doc.rust-lang.org/book/ch11-01-writing-tests.html
 "We don’t need to annotate any code in tests/integration_test.rs with #[cfg(test)]"
 
 # Doc tests
+"Adding example code blocks in your documentation comments can help demonstrate how to use your library, and doing so has an additional bonus: running cargo test will run the code examples in your documentation as tests! Nothing is better than documentation with examples. But nothing is worse than examples that don’t work because the code has changed since the documentation was written. " from https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html#documentation-comments-as-tests
