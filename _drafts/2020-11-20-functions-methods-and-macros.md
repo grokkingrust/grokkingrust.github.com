@@ -1,9 +1,13 @@
 Warnging: there won't be a great deal of use in this post - I've mainly written it to firmly embed in my head the various ways of reusably wrapping blocks of logic in Rust.
 
-# Functions e.g. area
+# Functions 
+E.g. ```area```
+
 Declared by the keyword ```fn```, functions are first class (i.e. you don't need to home them in a struct or anywhere else).
 
-# Methods e.g. rect.area
+# Methods
+
+E.g. ```rect.area```
 
 method syntax goes after an instance: we add a dot followed by the method name, parentheses, and any arguments - from https://doc.rust-lang.org/book/ch05-03-method-syntax.html
 
