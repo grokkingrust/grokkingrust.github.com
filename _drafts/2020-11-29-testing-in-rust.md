@@ -23,11 +23,11 @@ Another key point about unit testing in Rust is that, because the style is to pu
 # Integration tests
 Next up is integration tests.  As is the way with many things these days, Rust takes an opinionated stance on what an "integration test" is, and I personally am all for that
 
-    > "In Rust, integration tests are entirely external to your library. They use your library in the same way any other code would, which means they can only call functions that are part of your library’s public API. Their purpose is to test whether many parts of your library work together correctly."
+> "In Rust, integration tests are entirely external to your library. They use your library in the same way any other code would, which means they can only call functions that are part of your library’s public API. Their purpose is to test whether many parts of your library work together correctly."
 
 Integration tests then go in separate Rust files, but becasue they live in a standard place (```tests/```) we dont need to annotate them.
 
 # Documentation tests
 Finally we have documentation tests.  This is a new concept to me, but one which I can very much get behind. I'll simply quote from the Rust Book  
 
-    > "Adding example code blocks in your documentation comments can help demonstrate how to use your library, and doing so has an additional bonus: running cargo test will run the code examples in your documentation as tests! Nothing is better than documentation with examples. But nothing is worse than examples that don’t work because the code has changed since the documentation was written. " from {Documentation comments as tests](https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html#documentation-comments-as-tests) in the Rust Book
+> "Adding example code blocks in your documentation comments can help demonstrate how to use your library, and doing so has an additional bonus: running cargo test will run the code examples in your documentation as tests! Nothing is better than documentation with examples. But nothing is worse than examples that don’t work because the code has changed since the documentation was written. " from {Documentation comments as tests](https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html#documentation-comments-as-tests) in the Rust Book
