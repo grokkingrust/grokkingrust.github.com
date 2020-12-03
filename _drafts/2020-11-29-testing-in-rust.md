@@ -4,7 +4,7 @@ title: "Testing in Rust is a first-class citizen"
 description: "."
 tags: [rust, docs, testing]
 ---
-Testing in Rust is a first-class citzen and thats nice.  
+Testing in Rust is a first-class citzen and that's really nice.  
 
 What do I mean by "first class citizen"?  Well, you get support for writing tests _in the standard libraries_, the bundled build tool / package manager runs tests for you, and best of all _cargo builds will run the example code in your documentation if you ask them to._
 
