@@ -4,13 +4,11 @@ title: "Rust is an expression-based language, but..."
 description: "."
 tags: [rust, design, expressions, statements]
 ---
-Most languages these days are expression-based (aka "[expression-oriented](https://en.wikipedia.org/wiki/Expression-oriented_programming_language)").  
-
 > "Statements are instructions that perform some action and do not return a value. Expressions evaluate to a resulting value."
 
 From [chapter 3, section 3 of the Rust Book](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html).
 
-While Java isn't, [Rust very much is](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html).
+Most languages these days are expression-based (aka "[expression-oriented](https://en.wikipedia.org/wiki/Expression-oriented_programming_language)").  While Java isn't, [Rust very much is](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html).
 
 However, there are some subtleties...
 
@@ -31,12 +29,12 @@ The Rust Book [explains why](https://doc.rust-lang.org/book/ch03-03-how-function
 
 This came as a bit of a surprise.  What also came as a surprise was the whole thing aroung semi-colons:
 
-> "Expressions do not include ending semicolons. If you add a semicolon to the end of an expression, you turn it into a statement, which will then not return a value. Keep this in mind as you explore function return values and expressions next."
+> "Expressions do not include ending semicolons. If you add a semicolon to the end of an expression, you turn it into a statement, which will then not return a value."
 
 Now that makes sense, but again there are subtlities. I _think_ that because Rust is explicitly memory-safe, it's not happy with you having things with memory footprints being retured from expressions willy-nilly.  Hence the semi-colons almost everywhere, apart in the final lines of blocks and functions etc.
 
 # One final point of note
-Interestingly, when we try and compile our first code example we also get an exciting nugged of info in the error output:
+Interestingly, when we try and compile our first code example we also get an exciting nugget of info in the error output:
 
     error[E0658]: `let` expressions in this position are experimental
 
