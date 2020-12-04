@@ -33,12 +33,7 @@ This came as a bit of a surprise.  What also came as a surprise was the whole th
 
 > "Expressions do not include ending semicolons. If you add a semicolon to the end of an expression, you turn it into a statement, which will then not return a value. Keep this in mind as you explore function return values and expressions next."
 
-Now that makes sense, but again there are subtlities. I _think_ that because Rust is explicitly memory-safe, it's not happy with you having things being retured from expressions willy-nilly
-
-[My error when I make the block return the output from a statement....]
-
-"statements don’t evaluate to a value, which is expressed by (), an empty tuple"
-"Expressions can be part of statements: in Listing 3-1, the 6 in the statement let y = 6; is an expression that evaluates to the value 6. Calling a function is an expression. Calling a macro is an expression. The block that we use to create new scopes, {}, is an expression"
+Now that makes sense, but again there are subtlities. I _think_ that because Rust is explicitly memory-safe, it's not happy with you having things with memory footprints being retured from expressions willy-nilly.  Hence the semi-colons almost everywhere, apart in the final lines of blocks and functions etc.
 
 # One final point of note
 Interestingly, when we try and compile our first code example we also get an exciting nugged of info in the error output:
