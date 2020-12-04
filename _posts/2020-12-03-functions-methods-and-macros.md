@@ -60,8 +60,18 @@ and
 Note: the ```::``` syntax is used for both associated functions and namespaces created by modules.  
 
 # Macros(!) 
-TBC. See https://doc.rust-lang.org/book/ch05-02-example-structs.html and https://doc.rust-lang.org/book/ch05-03-method-syntax.html in the meantime.
+I've not got to Rust macros yet. But here's [the source](https://doc.rust-lang.org/src/std/macros.rs.html#93-98) of the ```println!``` macro for reference:
 
+    #[macro_export]
+    #[stable(feature = "rust1", since = "1.0.0")]
+    #[allow_internal_unstable(print_internals, format_args_nl)]
+    macro_rules! println {
+        () => ($crate::print!("\n"));
+        ($($arg:tt)*) => ({
+            $crate::io::_print($crate::format_args_nl!($($arg)*));
+        })
+    }
+    
 ## Use
 
     println!("This is a test");
