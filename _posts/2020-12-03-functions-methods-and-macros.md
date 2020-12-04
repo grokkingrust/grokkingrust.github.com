@@ -1,3 +1,10 @@
+---
+layout: article
+title: "Functions, Methods and Macros"
+description: "."
+tags: [rust, functions, methods, macros, syntax]
+---
+
 Warning: there won't be a great deal of use in this post - I've mainly written it to firmly embed in my head the various ways of reusably wrapping blocks of logic in Rust.
 
 # Functions 
